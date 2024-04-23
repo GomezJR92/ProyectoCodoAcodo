@@ -1,0 +1,162 @@
+body{
+    
+    background-image: url(../resources/img/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.estrenos{
+
+    display: flex;
+    border-radius: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrusel-estrenos{
+
+    width: 80%;
+    border-radius:10px;
+}
+
+.container-large{
+    
+    width: 80%;
+    align-items: center;
+    margin: 10%;
+}
+
+.container-pelis{
+
+    columns: 4 ;
+    width: 100%;  
+}
+
+.title-pelis{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(14, 13, 13);
+    text-shadow: 0 0 10px rgb(236, 233, 233);
+}
+
+.pelis-div{
+    
+    padding:5%;
+}
+
+.img-select{
+
+    opacity:0.75 ;
+    border-radius: 15px;  
+}
+
+.img-select:hover{
+    
+    opacity:1 ;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow:0 0 12px rgb(231, 140, 4) ;
+    transition-duration: 1s;
+}
+
+.container-nav{
+
+    display:flex;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(5px);
+    justify-content:center;
+    align-items: center;
+}
+
+.text-menu{
+    
+    display: inline-block;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+}
+
+a:link{
+    
+    text-decoration: none;
+}
+
+.container-nav a{
+
+    color: #f0e9e9;
+}
+
+a:hover{
+
+    color: black;
+    text-shadow: 0 0 10px rgb(253, 97, 0);
+    transition-duration: 1s;  
+}
+
+.logo{
+    
+    width: 100%; 
+}
+
+@media screen and (max-width: 448px){
+
+.container-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-pelis{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1%;;
+}
+
+body{
+    background: rgb(13,13,13);
+    background: linear-gradient(169deg, rgba(13,13,13,1) 0%, rgba(133,133,140,1) 35%, rgba(240,245,246,1) 100%);
+}
+
+}
+
+@media screen and (max-width: 800px){
+
+    .container-large{
+
+        width: 100%;
+        align-items: center;
+        margin: 1% 1% 1% ;
+    }
+   
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container-pelis{
+
+        columns: 3 ;
+        width: 100%;  
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+
+    .container-pelis{
+
+        columns: 2 ;
+        width: 100%;
+        margin: 2%;  
+    }
+    
+}
