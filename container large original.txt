@@ -1,0 +1,17 @@
+<div id="pelis" class="container-large">
+      <h1 class="title-pelis">PELICULAS</h1>
+      <div class="container-pelis">
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/doctorStrange.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/guardiasdelagalaxia2.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/ironman.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/Black_Panther.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/vengadoresInfinity.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/xmen1.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/xmen2.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/spiderman.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/xmen3.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/xmen1clase.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/xmenorigenes.jpg" alt=""></div>
+        <div class="pelis-div"><img class="img-fluid img-select" src="./resources/img/thor-ragnarok.jpg" alt=""></div>
+      </div>
+    </div>   

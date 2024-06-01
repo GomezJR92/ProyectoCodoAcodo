@@ -18,8 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
   
-      // guardar el usuario en la "base de datos" (localstorage)
-  
+     
       const users = JSON.parse(localStorage.getItem("users")) || [];
       const existingUser = users.find((user) => user.username === username);
   

@@ -60,6 +60,9 @@ body{
 
     columns: 4 ;
     width: 100%;  
+    color: black;
+    text-shadow: 0 0 4px rgb(243, 243, 243);
+    
 }
 
 .title-pelis{
@@ -70,12 +73,16 @@ body{
     font-family: "Saira Stencil One", sans-serif;
     color: black;
     text-shadow: 0 0 10px rgb(236, 233, 233);
+    padding-bottom: 2%;
 }
 
 .pelis-div{
     
-    padding:5%;
+    padding:2%;
+    
 }
+
+
 
 .img-select{
 
