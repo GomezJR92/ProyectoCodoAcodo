@@ -58,7 +58,8 @@ body{
 
 .container-pelis{
 
-    columns: 4 ;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;  
     color: black;
     text-shadow: 0 0 4px rgb(243, 243, 243);
@@ -78,8 +79,14 @@ body{
 
 .pelis-div{
     
+    width: 25%;
     padding:2%;
-    
+}
+
+.pelis-div h3{
+
+    width: 100%;
+    height: 60px;
 }
 
 
