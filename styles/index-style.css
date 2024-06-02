@@ -186,53 +186,34 @@ footer a{
 }
 
 
-
-@media screen and (max-width: 448px){
-
-.container-nav{
-    display: flex;
-    flex-direction: column;
-}
-
-.container-pelis{
-
-    display: flex;
-    flex-direction: column;
-    margin: 1%;;
-}
-
-
-
-}
-
-@media screen and (max-width: 800px){
-
-    .container-large{
-
-        width: 100%;
-        align-items: center;
-        margin: 1% 1% 1% ;
-    }
-   
-}
-
 @media screen and (max-width: 1200px) {
 
     .container-pelis{
 
-        columns: 3 ;
+       
         width: 100%;  
     }
     
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px){
 
-    .container-pelis{
-
-        columns: 2 ;
-        width: 100%;
-        margin: 2%;  
-    }
+    .pelis-div{
     
+        width: 33%;
+        padding:2%;
+    }
+
+   
 }
+
+@media screen and (max-width: 576px){
+
+    .pelis-div{
+    
+        width: 50%;
+        
+    }
+}
+
+
