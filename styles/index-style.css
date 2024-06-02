@@ -6,10 +6,6 @@
 */
 .body-style{
     
-    /*background-image: url(../resources/img/background.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;*/
     background-color: #222831;
     min-height: 100vh;
     height: 100vh;
@@ -212,6 +208,11 @@ footer a{
     .pelis-div{
     
         width: 50%;
+        
+    }
+    .container-nav{
+        display:flex ;
+        flex-direction: column;
         
     }
 }
