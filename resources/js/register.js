@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
       localStorage.setItem("users", JSON.stringify(users));
   
-      window.location.href = "login.html";
+      window.location.href = "iniciarsesion.html";
     });
   });
   
