@@ -37,7 +37,7 @@
 
     text-align: center;
     margin-top: 5%;
-    font-family: "Saira Stencil One", sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
     text-shadow: 0 0 10px rgb(236, 233, 233);
 
@@ -75,7 +75,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Saira Stencil One", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     text-shadow: 0 0 10px rgb(236, 233, 233);
     padding-bottom: 2%;
